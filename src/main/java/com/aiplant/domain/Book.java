@@ -1,10 +1,13 @@
-package com.kaluzny.domain;
+package com.aiplant.domain;
+
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 
 import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+@EnableAutoConfiguration
 public class Book {
 
     @Id

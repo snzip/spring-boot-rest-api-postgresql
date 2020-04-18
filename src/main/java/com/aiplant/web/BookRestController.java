@@ -1,7 +1,7 @@
-package com.kaluzny.web;
+package com.aiplant.web;
 
-import com.kaluzny.domain.Book;
-import com.kaluzny.domain.BookRepository;
+import com.aiplant.domain.Book;
+import com.aiplant.domain.BookRepository;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
